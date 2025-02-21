@@ -25,7 +25,9 @@ export default function Home() {
       {/* <ThemeSwitcher /> */}
       <main
         className="flex min-h-screen flex-col items-center justify-between p-5 lg:p-12 bg-cover bg-no-repeat bg-center relative"
-        style={{ backgroundImage: 'url(bg.jpg)' }}
+        style={{ backgroundImage: 'url(bgb.jpg)' ,
+
+        }}
       >
         {/* Background overlay */}
         <div className="bg-overlay absolute inset-0 z-0"></div>
