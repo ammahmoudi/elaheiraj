@@ -32,10 +32,10 @@ export default function Home() {
               href="/"
               rel="noopener noreferrer"
             >
-              {/* <div className='flex flex-col text-center'>
+              <div className='flex flex-col text-center'>
                 <h1 className='text-2xl lgtext-4xl text-sky-400/100 font-semibold	'> {sitename} </h1>
-                <p className='text-2 font-medium m-2 text-slate-800 dark:text-slate-100'>{sitetagline}</p>
-              </div> */}
+                {/* <p className='text-2 font-medium m-2 text-slate-800 dark:text-slate-100'>{sitetagline}</p> */}
+              </div>
             </a>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
         </div> */}
 
         <footer className='text-slate-500 text-center'>
-          {/* <div className='my-4 text-center' >
+          <div className='my-4 text-center' >
             <ul className='flex flex-wrap lg:flex justify-center '>
               <li className='px-2'> {socialIconsHeading} </li>
               {socialIcons.map((social, index) =>
@@ -75,7 +75,7 @@ export default function Home() {
               )
               )}
             </ul>
-          </div> */}
+          </div>
           <div className=''>
             <p className='' dangerouslySetInnerHTML={{
               __html: copyrightText
