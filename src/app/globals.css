@@ -17,12 +17,20 @@
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background-color: rgb(2 6 23 / var(--tw-bg-opacity));
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85); /* Default to black overlay */
+  transition: background-color 0.3s ease;
+}
+
+body.dark .bg-overlay {
+  background-color: rgba(255, 255, 255, 0.85); /* Light overlay in dark mode */
 }
